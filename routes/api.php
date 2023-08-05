@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\EmployeeController;
 use App\Http\Controllers\Api\TeamController;
+use App\Http\Controllers\Api\SalesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::resource('employee', EmployeeController::class);
 Route::resource('team', TeamController::class);
+Route::resource('sales', SalesController::class);

@@ -10,6 +10,7 @@ class Sales extends Model
     protected $fillable =[
         'employee_id',
         'date',
-        'created_at'
+        'created_at',
+        'value'
     ];
 }
