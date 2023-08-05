@@ -5,9 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Employee extends Model
+class Sales extends Model
 {
-    protected $fillable = [
-        'id', 'name', 'salary', 'role', 'team_id'
+    protected $fillable =[
+        'employee_id',
+        'date',
+        'created_at'
     ];
 }
